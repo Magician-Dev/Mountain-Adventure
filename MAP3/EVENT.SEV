@@ -1,0 +1,170 @@
+event_mev:
+incbin	"01.jun/event.mev"
+dcb.w -196,0
+event_offlist:
+dc.w 0,16,32,48,64,80,96,112,128,144,160,176,192,222,238,268,284,300,316,332,348,364,380,396,412,428,444,474,490,506,522,538,554,570,600,630,646,662,678,708,738,754,770,786,816,846,904,920,950,966,982,998,1014,1072,1130,1188,1204,1220,1236,1252,1268,1298,1314,1330,1346,1362,1378,1394,1410
+dcb.w 443,0
+event_event:
+ev_ty1 1,4,40,MS_ray_in_map,0,7,0
+ev_end
+ev_ty1 1,16,11,MS_pan3,0,4,2
+ev_end
+ev_ty1 1,53,19,MS_goto,0,4,3
+ev_end
+ev_ty1 1,42,45,MS_poing_plate_forme,0,4,20
+ev_end
+ev_ty1 1,22,36,MS_WIZ1,0,7,21
+ev_end
+ev_ty1 1,11,0,MS_scintillement,0,4,22
+ev_end
+ev_ty1 1,30,17,MS_WIZ1,0,7,23
+ev_end
+ev_ty1 1,50,63,MS_WIZ1,0,7,24
+ev_end
+ev_ty1 1,44,13,MS_WIZ1,0,7,25
+ev_end
+ev_ty1 1,57,5,MS_WIZ1,0,7,26
+ev_end
+ev_ty1 1,23,51,MS_ubi_poing_or,0,7,27
+ev_end
+ev_ty1 1,24,30,MS_WIZ1,0,7,28
+ev_end
+ev_ty1 1,10,1,MS_WIZ1,0,7,30
+ev_ty1 1,49,35,MS_WIZ1,0,7,29
+ev_end
+ev_ty1 1,59,39,MS_WIZ1,0,7,31
+ev_end
+ev_ty1 1,59,60,MS_WIZ1,0,7,35
+ev_ty1 1,58,15,MS_WIZ1,0,7,34
+ev_end
+ev_ty1 1,56,19,MS_WIZ1,0,7,36
+ev_end
+ev_ty1 1,58,30,MS_WIZ1,0,7,37
+ev_end
+ev_ty1 1,54,28,MS_WIZ1,0,7,38
+ev_end
+ev_ty1 1,61,42,MS_WIZ1,0,7,39
+ev_end
+ev_ty1 1,31,58,Portal_plt,0,7,41
+ev_end
+ev_ty1 1,50,0,MS_ubi_kildoor,0,4,49
+ev_end
+ev_ty1 1,52,0,MS_ubi_kildoor,0,4,50
+ev_end
+ev_ty1 1,41,18,MS_ubi_gendoor,0,4,51
+ev_end
+ev_ty1 1,20,46,MS_ubi_gendoor,0,4,52
+ev_end
+ev_ty1 1,30,42,MS_sto3,0,4,55
+ev_end
+ev_ty1 1,27,9,MS_sto2,0,4,57
+ev_end
+ev_ty1 1,18,11,MS_mus_piaf,0,5,63
+ev_ty1 1,3,39,MS_hpi4,0,4,54
+ev_end
+ev_ty1 1,30,8,MS_cha,0,4,64
+ev_end
+ev_ty1 1,20,50,MS_cha2,0,4,40
+ev_end
+ev_ty1 1,32,37,MS_tip,0,4,71
+ev_end
+ev_ty1 1,2,52,MS_tip,0,4,72
+ev_end
+ev_ty1 1,59,19,MS_tip,0,4,73
+ev_end
+ev_ty1 1,4,34,MS_ubi_pt_grap,0,4,74
+ev_end
+ev_ty1 1,4,42,MS_ubi_pt_grap,0,4,76
+ev_ty1 1,3,6,MS_ubi_pt_grap,0,4,75
+ev_end
+ev_ty1 1,4,50,MS_ubi_pt_grap,0,4,78
+ev_ty1 1,4,13,MS_ubi_pt_grap,0,4,77
+ev_end
+ev_ty1 1,13,51,MS_ubi_pt_grap,0,4,79
+ev_end
+ev_ty1 1,39,5,MS_ouye,0,4,80
+ev_end
+ev_ty1 1,36,38,MS_ouye,0,4,81
+ev_end
+ev_ty1 1,28,9,MS_ouye,0,4,82
+ev_ty1 1,12,21,MS_WIZ1,0,7,32
+ev_end
+ev_ty1 1,39,44,MS_ouye,0,4,83
+ev_ty1 1,19,43,MS_WIZ1,0,7,33
+ev_end
+ev_ty1 1,10,15,MS_ouye,0,4,84
+ev_end
+ev_ty1 1,24,23,MS_nu20,0,5,85
+ev_end
+ev_ty1 1,7,34,ball_instand,0,4,86
+ev_end
+ev_ty1 1,62,58,MS_WIZ1,0,7,119
+ev_ty1 1,20,43,MS_sto2,0,4,56
+ev_end
+ev_ty1 1,56,3,MS_WIZ1,0,7,120
+ev_ty1 1,21,30,MS_WIZ1,0,7,116
+ev_end
+ev_ty1 1,51,60,MS_WIZ1,0,7,122
+ev_ty1 1,36,49,MS_WIZ1,0,7,121
+ev_ty1 1,5,48,MS_WIZ1,0,7,118
+ev_ty1 1,20,45,MS_WIZ1,0,7,117
+ev_end
+ev_ty1 1,4,5,MS_WIZ1,0,7,123
+ev_end
+ev_ty1 1,62,50,MS_WIZ1,0,7,125
+ev_ty1 1,23,28,MS_WIZ1,0,7,124
+ev_end
+ev_ty1 1,46,12,MS_WIZ1,0,7,126
+ev_end
+ev_ty1 1,55,15,MS_WIZ1,0,7,127
+ev_end
+ev_ty1 1,12,62,MS_WIZ1,0,7,129
+ev_end
+ev_ty1 1,25,62,MS_WIZ1,0,7,130
+ev_end
+ev_ty1 1,55,5,MS_WIZ1,0,7,134
+ev_ty1 1,47,15,MS_WIZ1,0,7,133
+ev_ty1 1,38,31,MS_WIZ1,0,7,132
+ev_ty1 1,36,55,MS_WIZ1,0,7,131
+ev_end
+ev_ty1 1,52,56,MS_WIZ1,0,7,138
+ev_ty1 1,23,53,MS_WIZ1,0,7,137
+ev_ty1 1,6,60,MS_WIZ1,0,7,136
+ev_ty1 1,32,56,MS_WIZ1,0,7,135
+ev_end
+ev_ty1 1,30,44,MS_WIZ1,0,7,141
+ev_ty1 1,20,26,MS_WIZ1,0,7,140
+ev_ty1 1,8,9,MS_WIZ1,0,7,139
+ev_ty1 1,50,31,MS_scintillement,0,4,40
+ev_end
+ev_ty1 1,40,0,MS_WIZ1,0,7,142
+ev_end
+ev_ty1 1,62,32,MS_WIZ1,0,7,143
+ev_end
+ev_ty1 1,43,33,MS_WIZ1,0,7,144
+ev_end
+ev_ty1 1,29,32,MS_WIZ1,0,7,145
+ev_end
+ev_ty1 1,2,36,MS_WIZ1,0,7,146
+ev_end
+ev_ty1 1,62,32,MS_WIZ1,0,7,148
+ev_ty1 1,14,33,MS_WIZ1,0,7,147
+ev_end
+ev_ty1 1,54,33,MS_WIZ1,0,7,149
+ev_end
+ev_ty1 1,60,29,MS_WIZ1,0,7,150
+ev_end
+ev_ty1 1,8,27,MS_WIZ1,0,7,151
+ev_end
+ev_ty1 1,33,12,MS_WIZ1,0,7,152
+ev_end
+ev_ty1 1,0,18,MS_WIZ1,0,7,153
+ev_end
+ev_ty1 1,7,35,MS_WIZ1,0,7,154
+ev_end
+ev_ty1 1,10,10,MS_WIZ1,0,7,155
+ev_end
+ev_ty1 1,54,47,MS_nuap,0,5,156
+ev_ty1 1,42,8,MS_WIZ1,0,7,128
+ev_end
+
